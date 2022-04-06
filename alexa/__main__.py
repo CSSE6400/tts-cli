@@ -1,20 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import click
+import os
 
 from pathlib import Path
 
+import click
 from TTS.utils.manage import ModelManager
 from TTS.utils.synthesizer import Synthesizer
 
 
+def filter_input_sentance(sentance):
+    sentance = "".join(filter(lambda character: character.isalpha() or character in ".,:;!?", sentance))
+    return sentance.strip().strip(".")
+
+def filter_input(input):
+    return ". ".join(filter(None, map(filter_input_sentance, input))) + "."
+
 @click.command()
 @click.option('--model', default='tts_models/en/ek1/tacotron2')
-@click.option('--input-file')
-@click.option('--output-path', default="out")
-@click.option('--output-name', default="example")
-def main(model: str, input_file: str, output_path: str, output_name: str):
+@click.option('--input-file', required=True)
+@click.option('--output', default="out/example.wav")
+def main(model: str, input_file: str, output: str):
     # load model manager
     path = Path(__file__).parent / ".models.json"
     manager = ModelManager(path)
@@ -35,15 +42,23 @@ def main(model: str, input_file: str, output_path: str, output_name: str):
         False,
     )
 
+    with open(input_file) as f:
+        contents = filter_input(f.readlines())
+
     # RUN THE SYNTHESIS
-    print(" > Text: {}".format("todo: read from input"))
+    print(" > Text: {}".format(contents))
 
     # kick it
-    wav = synthesizer.tts("todo: read from input")
+    wav = synthesizer.tts(contents)
 
     # save the results
+    output_path = output if output.endswith(".wav") else output + ".wav"
     print(" > Saving output to {}".format(output_path))
-    synthesizer.save_wav(wav, output_path + f'/{output_name}.wav')
+
+    directory = os.path.dirname(output_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    synthesizer.save_wav(wav, output_path)
 
 
 if __name__ == "__main__":
