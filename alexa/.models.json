@@ -1,17 +1,5 @@
 {
     "tts_models": {
-        "multilingual":{
-            "multi-dataset":{
-                "your_tts":{
-                    "description": "Your TTS model accompanying the paper https://arxiv.org/abs/2112.02418",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--multilingual--multi-dataset--your_tts.zip",
-                    "default_vocoder": null,
-                    "commit": "e9a1953e",
-                    "license": "CC BY-NC-ND 4.0",
-                    "contact": "egolge@coqui.ai"
-                }
-            }
-        },
         "en": {
             "ek1": {
                 "tacotron2": {
@@ -120,30 +108,6 @@
                 }
             }
         },
-        "es": {
-            "mai": {
-                "tacotron2-DDC": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/tts_models--es--mai--tacotron2-DDC.zip",
-                    "default_vocoder": "vocoder_models/universal/libri-tts/fullband-melgan",
-                    "commit": "",
-                    "author": "Eren Gölge @erogol",
-                    "license": "MPL",
-                    "contact": "egolge@coqui.com"
-                }
-            }
-        },
-        "fr": {
-            "mai": {
-                "tacotron2-DDC": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/tts_models--fr--mai--tacotron2-DDC.zip",
-                    "default_vocoder": "vocoder_models/universal/libri-tts/fullband-melgan",
-                    "commit": "",
-                    "author": "Eren Gölge @erogol",
-                    "license": "MPL",
-                    "contact": "egolge@coqui.com"
-                }
-            }
-        },
         "uk":{
             "mai": {
                 "glow-tts": {
@@ -153,94 +117,6 @@
                     "license": "MIT",
                     "contact": "",
                     "default_vocoder": "vocoder_models/uk/mai/multiband-melgan"
-                }
-            }
-        },
-        "zh-CN": {
-            "baker": {
-                "tacotron2-DDC-GST": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--zh-CN--baker--tacotron2-DDC-GST.zip",
-                    "commit": "unknown",
-                    "author": "@kirianguiller",
-                    "default_vocoder": null
-                }
-            }
-        },
-        "nl": {
-            "mai": {
-                "tacotron2-DDC": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.10/tts_models--nl--mai--tacotron2-DDC.zip",
-                    "author": "@r-dh",
-                    "default_vocoder": "vocoder_models/nl/mai/parallel-wavegan",
-                    "stats_file": null,
-                    "commit": "540d811"
-                }
-            }
-        },
-        "de": {
-            "thorsten": {
-                "tacotron2-DCA": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.11/tts_models--de--thorsten--tacotron2-DCA.zip",
-                    "default_vocoder": "vocoder_models/de/thorsten/fullband-melgan",
-                    "author": "@thorstenMueller",
-                    "commit": "unknown"
-                }
-            }
-        },
-        "ja": {
-            "kokoro": {
-                "tacotron2-DDC": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.15/tts_models--jp--kokoro--tacotron2-DDC.zip",
-                    "default_vocoder": "vocoder_models/ja/kokoro/hifigan_v1",
-                    "description": "Tacotron2 with Double Decoder Consistency trained with Kokoro Speech Dataset.",
-                    "author": "@kaiidams",
-                    "commit": "401fbd89"
-                }
-            }
-        },
-        "tr":{
-            "common-voice": {
-                "glow-tts":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--tr--common-voice--glow-tts.zip",
-                    "default_vocoder": "vocoder_models/tr/common-voice/hifigan",
-                    "license": "MIT",
-                    "description": "Turkish GlowTTS model using an unknown speaker from the Common-Voice dataset.",
-                    "author": "Fatih Akademi",
-                    "commit": null
-                }
-            }
-        },
-        "it": {
-            "mai_female": {
-                "glow-tts":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--it--mai_female--glow-tts.zip",
-                    "default_vocoder": null,
-                    "description": "GlowTTS model as explained on https://github.com/coqui-ai/TTS/issues/1148.",
-                    "author": "@nicolalandro",
-                    "commit": null
-                },
-                "vits":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--it--mai_female--vits.zip",
-                    "default_vocoder": null,
-                    "description": "GlowTTS model as explained on https://github.com/coqui-ai/TTS/issues/1148.",
-                    "author": "@nicolalandro",
-                    "commit": null
-                }
-            },
-            "mai_male": {
-                "glow-tts":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--it--mai_male--glow-tts.zip",
-                    "default_vocoder": null,
-                    "description": "GlowTTS model as explained on https://github.com/coqui-ai/TTS/issues/1148.",
-                    "author": "@nicolalandro",
-                    "commit": null
-                },
-                "vits":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--it--mai_male--vits.zip",
-                    "default_vocoder": null,
-                    "description": "GlowTTS model as explained on https://github.com/coqui-ai/TTS/issues/1148.",
-                    "author": "@nicolalandro",
-                    "commit": null
                 }
             }
         }
@@ -318,39 +194,6 @@
                 }
             }
         },
-        "nl": {
-            "mai": {
-                "parallel-wavegan": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.10/vocoder_models--nl--mai--parallel-wavegan.zip",
-                    "author": "@r-dh",
-                    "commit": "unknown"
-                }
-            }
-        },
-        "de": {
-            "thorsten": {
-                "wavegrad": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.11/vocoder_models--de--thorsten--wavegrad.zip",
-                    "author": "@thorstenMueller",
-                    "commit": "unknown"
-                },
-                "fullband-melgan": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.1.3/vocoder_models--de--thorsten--fullband-melgan.zip",
-                    "author": "@thorstenMueller",
-                    "commit": "unknown"
-                }
-            }
-        },
-        "ja": {
-            "kokoro": {
-                "hifigan_v1": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.2.0/vocoder_models--ja--kokoro--hifigan_v1.zip",
-                    "description": "HifiGAN model trained for kokoro dataset by @kaiidams",
-                    "author": "@kaiidams",
-                    "commit": "3900448"
-                }
-            }
-        },
         "uk": {
             "mai": {
                 "multiband-melgan": {
@@ -359,17 +202,6 @@
                     "commit": "bdab788d",
                     "license": "MIT",
                     "contact": ""
-                }
-            }
-        },
-        "tr":{
-            "common-voice": {
-                "hifigan":{
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/vocoder_models--tr--common-voice--hifigan.zip",
-                    "description": "HifiGAN model using an unknown speaker from the Common-Voice dataset.",
-                    "author": "Fatih Akademi",
-                    "license": "MIT",
-                    "commit": null
                 }
             }
         }
