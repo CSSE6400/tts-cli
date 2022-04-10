@@ -1,4 +1,4 @@
-from alexa import __version__
+from chatterbox import __version__
 
 
 def test_version():

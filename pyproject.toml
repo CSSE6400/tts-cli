@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "alexa"
+name = "chatterbox"
 version = "0.1.0"
 description = "A command-line text-to-speech utility for UQ's Software Architecture students to deploy as a scalable service."
 authors = ["Evan Hughes <ehugh1@gmail.com>", "Brae Webb <email@braewebb.com>"]
