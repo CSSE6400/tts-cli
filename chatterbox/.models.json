@@ -4,7 +4,7 @@
             "ek1": {
                 "tacotron2": {
                     "description": "EK1 en-rp tacotron2 by NMStoker",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.1.0/tts_models--en--ek1--tacotron2.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ek1--tacotron2.zip",
                     "default_vocoder": "vocoder_models/en/ek1/wavegrad",
                     "commit": "c802255"
                 }
@@ -12,7 +12,7 @@
             "ljspeech": {
                 "tacotron2-DDC": {
                     "description": "Tacotron2 with Double Decoder Consistency.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.12/tts_models--en--ljspeech--tacotron2-DDC.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--tacotron2-DDC.zip",
                     "default_vocoder": "vocoder_models/en/ljspeech/hifigan_v2",
                     "commit": "bae2ad0f",
                     "author": "Eren Gölge @erogol",
@@ -21,7 +21,7 @@
                 },
                 "tacotron2-DDC_ph": {
                     "description": "Tacotron2 with Double Decoder Consistency with phonemes.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--en--ljspeech--tacotron2-DDC_ph.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--tacotron2-DDC_ph.zip",
                     "default_vocoder": "vocoder_models/en/ljspeech/univnet",
                     "commit": "3900448",
                     "author": "Eren Gölge @erogol",
@@ -30,7 +30,7 @@
                 },
                 "glow-tts": {
                     "description": "",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/tts_models--en--ljspeech--glow-tts.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--glow-tts.zip",
                     "stats_file": null,
                     "default_vocoder": "vocoder_models/en/ljspeech/multiband-melgan",
                     "commit": "",
@@ -40,7 +40,7 @@
                 },
                 "speedy-speech": {
                     "description": "Speedy Speech model trained on LJSpeech dataset using the Alignment Network for learning the durations.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.3.0/tts_models--en--ljspeech--speedy_speech.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--speedy_speech.zip",
                     "stats_file": null,
                     "default_vocoder": "vocoder_models/en/ljspeech/hifigan_v2",
                     "commit": "4581e3d",
@@ -50,7 +50,7 @@
                 },
                 "tacotron2-DCA": {
                     "description": "",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/tts_models--en--ljspeech--tacotron2-DCA.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--tacotron2-DCA.zip",
                     "default_vocoder": "vocoder_models/en/ljspeech/multiband-melgan",
                     "commit": "",
                     "author": "Eren Gölge @erogol",
@@ -59,7 +59,7 @@
                 },
                 "vits": {
                     "description": "VITS is an End2End TTS model trained on LJSpeech dataset with phonemes.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--en--ljspeech--vits.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--vits.zip",
                     "default_vocoder": null,
                     "commit": "3900448",
                     "author": "Eren Gölge @erogol",
@@ -68,7 +68,7 @@
                 },
                 "fast_pitch": {
                     "description": "FastPitch model trained on LJSpeech using the Aligner Network",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.2.2/tts_models--en--ljspeech--fast_pitch.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--ljspeech--fast_pitch.zip",
                     "default_vocoder": "vocoder_models/en/ljspeech/hifigan_v2",
                     "commit": "b27b3ba",
                     "author": "Eren Gölge @erogol",
@@ -79,16 +79,16 @@
             "vctk": {
                 "vits": {
                     "description": "VITS End2End TTS model trained on VCTK dataset with 109 different speakers with EN accent.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--en--vctk--vits.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--vctk--vits.zip",
                     "default_vocoder": null,
                     "commit": "3900448",
                     "author": "Eren @erogol",
                     "license": "",
                     "contact": "egolge@coqui.ai"
                 },
-                "fast_pitch":{
+                "fast_pitch": {
                     "description": "FastPitch model trained on VCTK dataseset.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--en--vctk--fast_pitch.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--vctk--fast_pitch.zip",
                     "default_vocoder": null,
                     "commit": "bdab788d",
                     "author": "Eren @erogol",
@@ -99,7 +99,7 @@
             "sam": {
                 "tacotron-DDC": {
                     "description": "Tacotron2 with Double Decoder Consistency trained with Aceenture's Sam dataset.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.13/tts_models--en--sam--tacotron_DDC.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--en--sam--tacotron_DDC.zip",
                     "default_vocoder": "vocoder_models/en/sam/hifigan_v2",
                     "commit": "bae2ad0f",
                     "author": "Eren Gölge @erogol",
@@ -108,11 +108,11 @@
                 }
             }
         },
-        "uk":{
+        "uk": {
             "mai": {
                 "glow-tts": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.6.0_models/tts_models--uk--mai--glow-tts.zip",
-                    "author":"@robinhad",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/tts_models--uk--mai--glow-tts.zip",
+                    "author": "@robinhad",
                     "commit": "bdab788d",
                     "license": "MIT",
                     "contact": "",
@@ -125,14 +125,14 @@
         "universal": {
             "libri-tts": {
                 "wavegrad": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/vocoder_models--universal--libri-tts--wavegrad.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--universal--libri-tts--wavegrad.zip",
                     "commit": "ea976b0",
                     "author": "Eren Gölge @erogol",
                     "license": "MPL",
                     "contact": "egolge@coqui.com"
                 },
                 "fullband-melgan": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/vocoder_models--universal--libri-tts--fullband-melgan.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--universal--libri-tts--fullband-melgan.zip",
                     "commit": "4132240",
                     "author": "Eren Gölge @erogol",
                     "license": "MPL",
@@ -144,13 +144,13 @@
             "ek1": {
                 "wavegrad": {
                     "description": "EK1 en-rp wavegrad by NMStoker",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.10/vocoder_models--en--ek1--wavegrad.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--en--ek1--wavegrad.zip",
                     "commit": "c802255"
                 }
             },
             "ljspeech": {
                 "multiband-melgan": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.9/vocoder_models--en--ljspeech--mulitband-melgan.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--en--ljspeech--mulitband-melgan.zip",
                     "commit": "ea976b0",
                     "author": "Eren Gölge @erogol",
                     "license": "MPL",
@@ -158,7 +158,7 @@
                 },
                 "hifigan_v2": {
                     "description": "HiFiGAN_v2 LJSpeech vocoder from https://arxiv.org/abs/2010.05646.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.12/vocoder_model--en--ljspeech-hifigan_v2.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_model--en--ljspeech-hifigan_v2.zip",
                     "commit": "bae2ad0f",
                     "author": "@erogol",
                     "license": "",
@@ -166,7 +166,7 @@
                 },
                 "univnet": {
                     "description": "UnivNet model finetuned on TacotronDDC_ph spectrograms for better compatibility.",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.3.0/vocoder_models--en--ljspeech--univnet_v2.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--en--ljspeech--univnet_v2.zip",
                     "commit": "4581e3d",
                     "author": "Eren @erogol",
                     "license": "TBD",
@@ -176,7 +176,7 @@
             "vctk": {
                 "hifigan_v2": {
                     "description": "Finetuned and intended to be used with tts_models/en/vctk/sc-glow-tts",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.12/vocoder_model--en--vctk--hifigan_v2.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_model--en--vctk--hifigan_v2.zip",
                     "commit": "2f07160",
                     "author": "Edresson Casanova",
                     "license": "",
@@ -186,7 +186,7 @@
             "sam": {
                 "hifigan_v2": {
                     "description": "Finetuned and intended to be used with tts_models/en/sam/tacotron_DDC",
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.0.13/vocoder_models--en--sam--hifigan_v2.zip",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--en--sam--hifigan_v2.zip",
                     "commit": "2f07160",
                     "author": "Eren Gölge @erogol",
                     "license": "",
@@ -197,8 +197,8 @@
         "uk": {
             "mai": {
                 "multiband-melgan": {
-                    "github_rls_url": "https://coqui.gateway.scarf.sh/v0.5.0_models/vocoder_models--uk--mai--multiband-melgan.zip",
-                    "author":"@robinhad",
+                    "github_rls_url": "https://d4034hcr1liqv.cloudfront.net/vocoder_models--uk--mai--multiband-melgan.zip",
+                    "author": "@robinhad",
                     "commit": "bdab788d",
                     "license": "MIT",
                     "contact": ""
